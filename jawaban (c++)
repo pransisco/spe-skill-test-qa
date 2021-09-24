@@ -1,0 +1,50 @@
+//BILANG Prima//
+
+
+int i=0, bil=2, cek, n;
+
+	cout <<"Bilangan Prima n : "; 
+	cin >>n;
+	while (i<n)
+	{
+		cek=0;
+		for(int j=2;j<=bil;j++)
+		{
+			if (bil%j==0)
+			{
+				cek++;
+			}
+		}
+		if (cek==1)
+		{
+			cout<<bil;
+				if (i<n-1)
+				{
+					cout<<", ";
+				}
+				else
+				{
+					cout <<.";
+				}
+				i++;
+		}
+		bil++;
+	}
+	
+	
+	
+//Bilangan Fiboncci//
+
+{
+int n;
+ if (n==(n-2)+ (n-1))
+ {
+	 return true;
+ }
+ else
+ {
+	 return false;
+ }
+
+}
+
